@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+<div class="kotak">
 <h1 id="judul">GPS Location</h1>
 <h2 id="tugas">Tugas Kuliah</h2>
 <table>
@@ -58,9 +59,11 @@
 <div id="map">
   <img id="fullscreen-btn" src="fullscreen.png" alt="Fullscreen" onclick="toggleFullScreen()" width="25" height="25">
 </div>
-<button onclick="getLocation()">Get My Current Location</button>
 
+<button onclick="getLocation()">Get My Current Location</button>
+</div>
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 <script src="script.js"></script>
+
 </body>
 </html>

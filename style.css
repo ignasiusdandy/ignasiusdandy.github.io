@@ -68,9 +68,9 @@ td {
 #tugas{
   font-family: Arial Narrow;
 }
-.kotak{
+.kotak1{
   background-color: antiquewhite;
-  
+  margin: 10px;
   padding: 20px;
 }
 

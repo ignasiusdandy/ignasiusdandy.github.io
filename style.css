@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+
+}
+#location, #address {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid rgb(0, 0, 0); /* Border warna yang sama dengan latar belakang tabel */
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  font-family: cursive;
+}
+
+th {
+  background-color: white;
+  width: 35%;
+}
+.pemisah{
+  background-color: white;
+  width: 0.1%;
+  white-space: nowrap;
+  padding: 0%;
+  margin: 0%;
+}
+
+td {
+  background-color: white;
+  width: 30%;
+}
+
+#map {
+  height: 400px; /* Adjust the height of the map */
+  width: 100%; /* Adjust the width of the map */
+}
+
+
+#fullscreen-btn {
+  position: absolute;
+  bottom: 15px;
+  right: 10px;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.fullscreen-hidden {
+  display: none;
+}
+
+#judul{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
+#tugas{
+  font-family: Arial Narrow;
+}

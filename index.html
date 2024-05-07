@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GPS Location Finder with OpenStreetMap</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<h1 id="judul">GPS Location</h1>
+<h2 id="tugas">Tugas Kuliah</h2>
+<table>
+  <tr>
+    <th>NAMA MATAKULIAH</th>
+    <td class="pemisah">:</td>
+    <td>Kartografi dan Geospasial</td>
+  </tr>
+  <tr>
+    <th>PRODI</th>
+    <td class="pemisah">:</td>
+    <td>D4 SIKC</td>
+  </tr>
+  <tr>
+    <th>KAMPUS</th>
+    <td class="pemisah">:</td>
+    <td>Politeknik Negeri Banjarmasin</td>
+  </tr>
+  <tr>
+    <th>DOSEN PENGAMPU</th>
+    <td class="pemisah">:</td>
+    <td>Agus SBN</td>
+  </tr>
+  <tr>
+    <th>NAMA</th>
+    <td class="pemisah">:</td>
+    <td>Ignasius Dandy</td>
+  </tr>
+  <tr>
+    <th>NIM</th>
+    <td class="pemisah">:</td>
+    <td>C050422006</td>
+  </tr>
+  <tr>
+    <th>KELAS</th>
+    <td class="pemisah">:</td>
+    <td>SIKC 4A</td>
+  </tr>
+  <tr>
+    <th>TANGGAL</th>
+    <td class="pemisah">:</td>
+    <td>23 April 2024</td>
+  </tr>
+</table>
+
+<p  id="location">Press the button to get your coordinates...</p>
+<p id="address">Address will be displayed here...</p>
+<div id="map">
+  <img id="fullscreen-btn" src="fullscreen.png" alt="Fullscreen" onclick="toggleFullScreen()" width="25" height="25">
+</div>
+<button onclick="getLocation()">Get My Current Location</button>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
